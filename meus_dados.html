@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site -->
+      <title>Health Track </title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style3.css">
+      <link rel="stylesheet" href="css/responsive3.css">
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+     
+   </head>
+
+   <body class="main-layout">
+
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+
+      <header>
+         <!-- header  -->
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                            <div  class="sino">
+                                <a href=""><img src="images\sino.png" alt="#"/></a>
+                            </div>
+                            <div class="user">
+                                <a href=""><img src="images\user.png" alt="#"/></a>
+                            </div>
+                           <div class="logo">
+                              <a href="index.html"><img src="images/Health.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <img src="images\cardapio.png" class="iconez">
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="home.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="atividades.html">Atividades</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="meus_dados.html">Meus dados</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link1" href="ajustes.html">Ajustes</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <!-- Apresentação - BANNER -->
+      <section class="banner_main">
+         <div class="container">
+            <h3 class="calendario">Selecione uma data:</h3>
+            <div id="main" class="container-fluid">
+
+                    <div id="top" class="row">
+                        <div class="col-md-3">
+                        </div>
+                     
+                        <div class="col-md-6">
+                            <div class="input-group h2">
+                                <input name="data[search]" class="form-control" id="search" type="text" placeholder="Pesquisar">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="submit">
+                                        <img src="images\lupa.png" class="lupa">
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                     
+                        <div class="col-md-3">
+                            <a href="add.html" class="btn btn-primary pull-right h2">Novo peso</a>
+                        </div>
+                    </div> <!-- /#top -->
+
+
+                    <hr />
+
+                    <div id="list" class="row">
+                        <div class="table-responsive col-md-12">
+                            <table class="table table-striped" cellspacing="0" cellpadding="0">
+                                <thead>
+                                    <tr>
+                                        <th>Data</th>
+                                        <th>Peso (Kg)</th>
+                                        <th class="actions">Alterar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                    
+                                    <tr>
+                                        <td>29/06/2021</td>
+                                        <td>65 Kg</td>
+                                        <td class="actions">
+                                            <a class="btn btn-warning btn-xs" href="">Editar</a>
+                                            <a class="btn btn-danger btn-xs"  href="#" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>07/09/2021</td>
+                                        <td>69 Kg</td>
+                                        <td class="actions">
+                                            <a class="btn btn-warning btn-xs" href="">Editar</a>
+                                            <a class="btn btn-danger btn-xs"  href="#" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>13/10/2021</td>
+                                        <td>70 Kg</td>
+                                        <td class="actions">
+                                            <a class="btn btn-warning btn-xs" href="">Editar</a>
+                                            <a class="btn btn-danger btn-xs"  href="#" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15/12/2021</td>
+                                        <td>68 Kg</td>
+                                        <td class="actions">
+                                            <a class="btn btn-warning btn-xs" href="">Editar</a>
+                                            <a class="btn btn-danger btn-xs"  href="#" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                                        </td>
+                                    </tr>
+                    
+                    
+                    
+                    
+                                </tbody>
+                            </table>
+                    
+                        </div>
+                    </div>
+                    <div class="relatorios">
+                        <h2>Relatórios</h2>
+                        <img src="images\grafico.png" class="grafico">
+                    </div>
+
+      </section>
+
+      <!--  footer -->
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p href="">Luiz Carlos Luna Paes - RM88028</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      <!-- Javascript -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   </body>
+</html>

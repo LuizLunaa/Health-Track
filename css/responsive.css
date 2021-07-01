@@ -1,0 +1,545 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+
+    .nav-link1 {
+        padding: 0 25px;
+        color: white;
+        font-size: 16px;
+        padding: 10px  0;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+        border-radius: 3px;
+        background-color: red;
+        margin-left: 30px;
+        padding: 10px 23px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    .nav-link1:hover {
+        color: white;
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0 30px;
+        line-height: 1.8;
+    }
+
+    .text-bg {
+        padding-top: 60px;
+    }
+
+    .text-img figure img {
+        width: 400px;
+        margin-top: 100px;
+    }
+
+    .titlepage h2 {
+        font-size: 35px;
+        color: red;
+        line-height: 40px;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .Services .Services-box img {
+        width: 80px;
+        border-radius: 30px;
+    }
+
+    .text-bg a {
+        margin-right: 5px;
+        padding: 10px 23px;
+        float: inherit;
+        max-width: 156px;
+        transition: all 0.5s;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .text-bg a:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: red;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .nav-link1 {
+        padding: 0 25px;
+        color: white;
+        font-size: 16px;
+        padding: 10px  0;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+        border-radius: 3px;
+        background-color: red;
+        margin-left: 30px;
+        padding: 10px 23px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    .nav-link1:hover {
+        color: white;
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0 30px;
+        line-height: 1.8;
+    }
+
+    .text-bg {
+        padding-top: 60px;
+    }
+
+    .text-img figure img {
+        width: 400px;
+        margin-top: 100px;
+    }
+
+    .titlepage h2 {
+        font-size: 35px;
+        color: red;
+        line-height: 40px;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .Services .Services-box img {
+        width: 80px;
+        border-radius: 30px;
+    }
+
+    .text-bg a {
+        margin-right: 5px;
+        padding: 10px 23px;
+        float: inherit;
+        max-width: 156px;
+        transition: all 0.5s;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .text-bg a:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: red;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0 30px;
+        line-height: 1.8;
+    }
+
+    .titlepage h2 {
+        font-size: 35px;
+        color: red;
+        line-height: 40px;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .Services .Services-box img {
+        width: 80px;
+        border-radius: 30px;
+    }
+
+    .text-bg {
+        padding-top: 50px;
+    }
+
+    .text-img figure img {
+        width: 100%;
+        margin-top: 140px;
+        margin-left: 9px;
+    }
+
+    .text-bg h1 {
+        padding-top: 0px;
+        font-size: 40px;
+        line-height: 61px;
+        padding-bottom: 18px;
+    }
+
+    .text-bg h2 {
+        color: red;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: bold;
+    }
+    .text-bg span {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .text-bg a {
+        margin-right: 5px;
+        padding: 10px 23px;
+        float: inherit;
+        max-width: 156px;
+        transition: all 0.5s;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .text-bg a:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .Services .Services-box {
+        padding: 25px 15px;
+    }
+    .Services .Services-box h3 {
+        font-size: 17px;
+    }
+    .why .why-box {
+        padding: 40px 10px 20px 10px;
+    }
+    .why .why-box h3 {
+        font-size: 19px;
+    }
+    .bg {
+        max-width: 170px;
+    }
+    .main_form {
+        padding: 55px 25px;
+    }
+    .cont span {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .cont p {
+        padding: 0px 30px;
+        padding-bottom: 60px;
+    }
+    .cont {
+        margin-top: 47%;
+    }
+    .main_form {
+        margin-bottom: -92%;
+    }
+
+    .nav-link1 {
+        padding: 0 25px;
+        color: white;
+        font-size: 16px;
+        padding: 10px  0;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;
+        border-radius: 3px;
+        background-color: red;
+        margin-left: 30px;
+        padding: 10px 23px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    .nav-link1:hover {
+        color: white;
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: red;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .mean-container .mean-bar {
+        margin-top: 0px;
+    }
+
+    .text-bg {
+        padding-top: 50px;
+    }
+
+    .text-bg a {
+        float: inherit;
+        margin-bottom: 30px;
+
+    }
+    .titlepage h2 {
+        font-size: 36px;
+    }
+    .web_hosting p {
+        padding: 40px 0px;
+    }
+    .bg {
+        margin-bottom: 30px;
+    }
+    .cont p {
+        padding: 0px 30px;
+        padding-bottom: 60px;
+    }
+    .cont {
+        margin-top: 50%;
+    }
+    .main_form {
+        margin-bottom: -58%;
+    }
+    .cont span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: red;
+        padding: 20px;
+        margin-top: 125px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: white;
+
+    }
+
+    .navigation.navbar-dark .navbar-toggler {
+        border-color: #fff;
+        float: right;
+    }
+
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        color: white;
+    }
+
+    .nav-link1 {
+        padding: 0 25px;
+        color: white;
+        font-size: 16px;
+        padding: 10px  0;
+    }
+    
+    .nav-link1:hover {
+        color: white;
+    }
+
+    .text-bg a {
+        float: inherit;
+        margin-bottom: 30px;
+        background-color: red;
+        color: white;
+        border-style: solid;
+        border-color: red;
+        border-radius: 4px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .text-bg a:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .Services .Services-box img {
+        width: 80px;
+        border-radius: 30px;
+        
+    }
+    .iconez {
+        width: 40px;
+    }
+
+    .logo {
+        width: 160px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .full {
+        justify-content: center;
+    }
+
+
+    .header {
+        padding: 50px 0px 0px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 60px;
+      
+    }
+
+    .img {
+        width: 250px;
+    }
+
+    .text-bg {
+        padding-top: 60px;
+
+
+    }
+    .text-bg h1 {
+        font-size: 41px;
+        line-height: 55px;
+        padding-bottom: 18px;
+        text-align: center;
+    }
+    .text-bg a {
+        float: inherit;
+        margin-bottom: 30px;
+        background-color: red;
+        color: white;
+        border-style: solid;
+        border-color: red;
+        border-radius: 4px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .text-bg a:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .text-bg p {
+        color: gray;
+        font-size: 17px;
+        line-height: 28px;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .text-bg h2 {
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+
+    }
+    .titlepage h2 {
+        font-size: 28px;
+        line-height: 35px;
+        color: red;
+    }
+
+
+    .web_hosting p {
+        padding: 40px 0px;
+    }
+    .bg {
+        margin-bottom: 30px;
+    }
+    .cont h3 {
+        font-size: 30px;
+    }
+    .cont p {
+        padding: 0px 0px;
+        padding-bottom: 60px;
+    }
+    .cont span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .cont {
+        margin-top: 89%;
+    }
+    .main_form {
+        margin-bottom: -102%;
+        padding: 55px 15px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -70px;
+    }
+    .navigation .navbar-collapse {
+        background: red;
+        padding: 20px;
+        margin-top: 24px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: white;
+        padding-bottom: 15px;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border-color: red;
+        margin-top: 20px;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        border-width: 1px;
+        border-style: inherit;
+    }
+
+
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        color: white;
+    }
+
+
+    .iconez {
+        width: 30px;          
+    }
+
+    .nav-link1 {
+    padding: 0 25px;
+    color: white;
+    font-size: 16px;
+    padding: 10px  0;
+    }
+
+    .nav-link1:hover {
+        color: white;
+    }
+
+    .Services .Services-box img {
+        width: 80px;
+        border-radius: 30px;
+        
+    }
+
+
+}
+

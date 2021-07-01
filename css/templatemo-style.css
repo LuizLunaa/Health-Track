@@ -1,0 +1,211 @@
+/* CSS geral da Página */
+
+/*TELA DE CARREGAMENTO*/
+
+.carregamento {
+	text-align: center;
+	padding-top: 200px;
+	display: block;
+	padding-left: 600px;
+}
+
+.continuar {
+	background-color: red;
+	color: white;
+	border: solid red;
+	border-radius: 5px;
+	position: absolute;
+	top: 600px;
+	right: 60px;
+}
+
+.continuar:hover {
+	color: white;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*--------------------*/
+
+/*TELA DE LOGIN*/
+
+.div-login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 95vh;
+}
+
+.div-inputs {
+	width: 400px;
+}
+
+.logo-login {
+  text-align: center;
+}
+
+.div-line {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.line {
+	height: 1px;
+	width: 300px;
+	background: red;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.nome {
+	background-color: white;
+  	border: 1.67px solid #808080;
+  	width: 340px;
+  	height: 53px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+.e-mail {
+  	background-color: white;
+ 	border: 1.67px solid #808080;
+  	width: 340px;
+  	height: 53px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+.senha {
+  	background-color: white;
+  	border: 1.67px solid #808080;
+  	width: 339px;
+  	height: 53px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+.esqueceu {
+	color: #4F4F4F;
+	font-weight: bold;
+	font-size: smaller; 
+	margin-top: 15px;
+}
+
+.esqueceu:hover {
+  color: #333;
+}
+
+.login {
+	color: white;
+	background-color: #EA0B0B;
+	border-radius: 5.33px;
+	border-color: red;
+	width: 340px;
+	height: 53px;
+	margin-bottom: 15px;
+}
+
+.login:hover {
+  color: white;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.criar_conta {
+  color: red;
+  background-color: white;
+  border-radius: 5.33px;
+  border-color: red;
+  width: 340px;
+  height: 53px;
+}
+
+.criar_conta:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*--------------------*/
+
+/*TELA DE CADASTRO*/
+
+.logo-cadastro {
+	text-align: center;
+}
+
+.cadastre-se {
+	color: #808080;
+	font-size: large;
+	
+}
+
+.nome-c {
+	background-color: white;
+	border: 1.67px solid #808080;
+	width: 340px;
+	height: 53px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	margin-top: 23px;
+}
+
+
+.e-mail-c {
+	background-color: white;
+	border: 1.67px solid #808080;
+	width: 340px;
+	height: 53px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+.senha-c {
+	background-color: white;
+	border: 1.67px solid #808080;
+	width: 339px;
+	height: 53px;
+  	margin-bottom: 15px;
+  	padding-left: 10px;
+}
+
+.confirm-senha-c {
+	background-color: white;
+	border: 1.67px solid #808080;
+	width: 339px;
+	height: 53px;
+  	margin-bottom: 15px;
+  	padding-left: 10px;
+}
+.criar_conta-c {
+	color: red;
+	background-color: white;
+	border-radius: 5.33px;
+	border-color: red;
+	width: 340px;
+	height: 53px;
+}
+
+.criar_conta-c:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.termos-c {
+	color: #4F4F4F;
+	font-weight: bold;
+	font-size: smaller; 
+	margin-top: 15px;
+}
+
+.termos-c:hover {
+	color: #333;
+	cursor: pointer;
+}
+ 
